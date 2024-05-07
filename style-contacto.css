@@ -1,0 +1,97 @@
+/*encabezado*/
+header{
+    background-color: #cccccc;
+    padding: 20px 0;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display:inline-block;
+    margin: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+/*main*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.prueba{
+    margin: 7px 0;
+}
+.prueba label{
+    display: inline;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{/*Afecta al boton envir formulario*/
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: orange;
+    border: none;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor:pointer;
+    color: white;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.20);
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+/*Footer o pie de pagina*/
+footer{
+    text-align: center;
+    background: url(/imagenes/bg.jpg);
+    padding: 40px;    
+}
+.copyright{
+    color: white;
+    font-size: small;
+    margin: 20px;
+}
